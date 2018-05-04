@@ -1,10 +1,20 @@
+/*
+  color carrot: #e67e22;
+  color carrot-darck: #af550c;
+*/
+
+/* --------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
@@ -12,7 +22,81 @@ html {
   font-size: 20px;
 }
 
+/* --------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------------- */
+
 .row {
   min-width: 1140px;
   margin: auto;
+}
+
+/* --------------------------------------- */
+/* HEADER-PAGE */
+/* --------------------------------------- */
+
+.header-page {
+  position: relative;
+  height: 100vh;
+  background-image: 
+                    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+                    url(img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-page__text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1140px;
+  transform: translate(-50%, -50%);
+}
+
+.header-page__text-box h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/* ---------BUTTONS--------- */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 5px 30px;
+  border: 2px solid #e67e22;
+  border-radius: 200px;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color .2s, border .2s, color .2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  margin-right: 25px;
+  background-color: #e67e22;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  color: #e67e22;
+}
+
+.btn:hover,
+.btn:focus {
+  border: 2px solid #af550c;
+  background-color: #af550c;
+  color: #fff;
+}
+
+.btn:active {
+  border: 2px solid rgba(175, 85, 12, 0.1);
+  background-color: rgba(175, 85, 12, 0.5);
+  color: #fff;
 }
