@@ -68,7 +68,7 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
-  padding: 5px 30px;
+  padding: 5px 30px 7px;
   border: 2px solid #e67e22;
   border-radius: 200px;
   line-height: 1.5;
