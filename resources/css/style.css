@@ -197,9 +197,14 @@ h2::after {
   background-color: #eee;
 }
 
+.features__title {
+  text-shadow:  0 0 10px black, 5px 5px 15px white;
+}
+
 .features__description {
   width: 70%;
   margin: auto;
+  margin-bottom: 30px;
   font-size: 90%;
   line-height: 1.45;
 }
@@ -221,4 +226,47 @@ h2::after {
 .features__card-description {
   font-size: 90%;
   line-height: 1.45;
+}
+
+/* --------------------------------------- */
+/* MEALS */
+/* --------------------------------------- */
+
+.meals {
+  padding: 0;
+  margin: 0;
+}
+
+.meals__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.meals__item {
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.meals__photo {
+  width: 100%;
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.meals__photo img {
+  width: 100%;
+  transform: scale(1.18);
+  opacity: .6;
+  transition: .3s;
+}
+
+.meals__photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
 }
