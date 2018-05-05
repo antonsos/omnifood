@@ -15,6 +15,7 @@
 
 html,
 body {
+  min-width: 1170px;
   background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
@@ -103,6 +104,7 @@ h2::after {
                     url(img/home-page/hero-bg.jpg);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .header-page__text-box {
@@ -406,4 +408,56 @@ h2::after {
 .btn-app:active {
   transform: scale(1.1) translateY(-4px);
   box-shadow: 0 3px 10px rgba(230, 125, 34, .9);
+}
+
+/* --------------------------------------- */
+/* CITIES */
+/* --------------------------------------- */
+
+.cities__box-img {
+  width: 100%;
+}
+
+.cities__box-img img {
+  width: 100%;
+}
+
+.cities__card-feature {
+  padding: 0 15px;
+  margin-bottom: 5px;
+}
+
+.cities__card-feature span {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: -3px;
+  text-align: center;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+
+.ion--color {
+  color: #e67e22;
+}
+.ion--size {
+  width: 30px;
+  font-size: 130%;
+}
+
+.cities__link:link,
+.cities__link:visited {
+  color: #e67e22;
+  border-bottom: 2px solid #e67e22;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.cities__link:hover,
+.cities__link:focus {
+  color: #555;
+  border-bottom: 2px solid transparent;
+}
+
+.cities__link:active {
+  color: rgba(85, 85, 85, 0.5);
 }
