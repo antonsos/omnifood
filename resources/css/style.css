@@ -509,3 +509,65 @@ h2::after {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+/* --------------------------------------- */
+/* PLAN */
+/* --------------------------------------- */
+
+.plans {
+  background-color: #f4f4f4;
+}
+
+.plans__title {
+  text-shadow:  0 0 10px black, 5px 5px 15px white;
+}
+
+.plan-box {
+  width: 90%;
+  margin-left: 5%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(230, 125, 34, 0.5);
+}
+
+.plan-box__wrapper {
+  padding: 15px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.plan-box__wrapper:last-child {
+  text-align: center;
+  border: none;
+}
+
+.plan-box__wrapper:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px; 
+}
+
+.plan-box__price {
+  margin-bottom: 10px;
+  font-size: 300%;
+  font-weight: 100;
+  color: #e67e22;
+}
+
+.plan-box__price span {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-box__meal {
+  font-size: 80%;
+}
+
+.plan-box__list {
+  padding: 0;
+  margin: 0;
+}
+
+.plan-box__item {
+  padding: 5px 0;
+  list-style: none;
+}
