@@ -149,6 +149,11 @@ h2::after {
   background-color: #e67e22;
 }
 
+.btn-full--margin:link,
+.btn-full--margin:visited {
+  margin-right: 0;
+}
+
 .btn-ghost:link,
 .btn-ghost:visited {
   color: #e67e22;
@@ -390,6 +395,11 @@ h2::after {
   transition: .3s;
 }
 
+.btn-app:link:last-of-type,
+.btn-app:visited:last-of-type {
+  margin-right: 0px;
+}
+
 .play {
   background-image: url(img/how-works/google_play_button.svg);
   background-position: -3px 0;
@@ -600,4 +610,117 @@ h2::after {
 
 .connection__form-newsletter {
   margin-right: 15px;
+}
+
+/* --------------------------------------- */
+/* FOOTER-MAIN */
+/* --------------------------------------- */
+
+.footer-main {
+  padding: 50px 0;
+  background-color: #333;
+}
+
+.footer-main__nav,
+.social-nav {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.footer-main__nav {
+  float: left;
+}
+
+.social-nav {
+  float: right;
+}
+
+.footer-main__list,
+.social-nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-main__item,
+.social-nav__item {
+  float: left;
+}
+
+.footer-main__item:not(:last-child),
+.social-nav__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-main__link:link,
+.footer-main__link:visited,
+.social-nav__link:link,
+.social-nav__link:visited {
+  display: block;
+  text-decoration: none;
+  color: #e67e22;
+  font-size: 120%;
+  transition: .3s;
+}
+
+.footer-main__link:link,
+.footer-main__link:visited {
+  border-bottom: 2px solid transparent;
+}
+
+.footer-main__link:hover,
+.footer-main__link:focus {
+  border-bottom: 2px solid #888;
+  color: #af550c;
+}
+
+.footer-main__link:active {
+  color: rgba(230, 125, 34, 0.5);
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  transition: .3s;
+}
+
+.ion-social-facebook:hover {
+  color: #3d5998;
+}
+
+.ion-social-twitter:hover {
+  color: #00eced;
+}
+
+.ion-social-googleplus:hover {
+  color: #dd4d39;
+}
+
+.ion-social-instagram:hover {
+  color: #517fa4;
+}
+
+.ion-social-facebook:active {
+  color: rgba(61, 88, 152, 0.5);
+}
+
+.ion-social-twitter:active {
+  color: rgba(0, 237, 237, 0.5);
+}
+
+.ion-social-googleplus:active {
+  color: hsla(7, 71%, 55%, 0.5);
+}
+
+.ion-social-instagram:active {
+  color: rgba(81, 127, 164, 0.5);
+}
+
+.footer-main__copyright {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #888;
 }

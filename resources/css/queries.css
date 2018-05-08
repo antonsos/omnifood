@@ -1,0 +1,321 @@
+/* big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  html,
+  body {
+    min-width: 1024px;
+  }
+
+  .header-page__text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    width: auto;
+    padding: 0 2%;
+  }
+
+  .cities__card-feature {
+    padding: 0 0;
+  }
+}
+
+/* small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    min-width: 768px;
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  h2::after {
+    transform: translateX(0px);
+  }
+
+  .how-works__item {
+    margin-bottom: 20px;
+  }
+
+  .features .col,
+  .cities .col {
+    width: 49%; 
+  }
+
+  .features .col:nth-child(3n),
+  .cities .col:nth-child(3n) {
+    margin-left: 0;
+  }
+
+  .features__card {
+    min-height: 280px;
+  }
+
+  .features__description {
+    width: 85%;
+  }
+
+  .cities__card{
+    width: 90%;
+    margin: auto;
+  }
+
+  .cities__card-feature {
+    width: 70%;
+    margin: auto;
+  }
+
+  .plan-box {
+    width: 95%;
+    margin-left: 2%;
+  }
+
+  .plan-box__price {
+    font-size: 240%;
+    font-weight: 300;
+  }
+
+  .plan-box__item {
+    font-size: 85%;
+  }
+
+  .connection .col {
+    width: 100%;
+  }
+
+  .connection__form-wrapper {
+    width: 55%;
+    margin: auto;
+  }
+
+}
+
+/* small phones to small tablet: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    min-width: 481px;
+    font-size: 16px;
+  }
+
+  section { padding: 30px 0; }
+
+  .header-page__text-box h1 {
+    font-size: 220%;
+    letter-spacing: .2px;
+    word-spacing: .5px;
+  }
+  
+  h2,
+  h3 {
+    letter-spacing: .2px;
+    word-spacing: .5px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    font-size: 160%;
+  }
+
+  h2::after {
+    margin-top: 15px;
+  }
+
+  .nav-main__list { display: none; }
+
+  .cities__card-feature {
+    width: 100%;
+  }
+
+  .features__description {
+    width: 90%;
+  }
+
+  .how-works .span-1-of-2 {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .how-works__steps-box {
+    margin-top: 0px;
+  }
+  
+  .how-works__steps-box:first-child {
+    padding-right: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .how-works__steps-box:last-child {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  
+  .how-works__box-img {
+    display: inline-block;
+    width: 20%;
+  }
+
+  .how-works__item {
+    margin-bottom: 15px;
+  }
+
+  .how-works__item:last-child {
+    margin-bottom: 40px;
+  }
+
+  .how-works__item::before {
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    font-size: 120%;
+  }
+
+  .btn-app:link:first-of-type,
+  .btn-app:visited:first-of-type {
+    margin-right: 2%;
+  }
+
+  .testimonials .col {
+    width: 100%;
+  }
+
+  .testimonials__blockquote {
+    margin-bottom: 15px;
+  }
+
+  .plans .col {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 15px;
+  }
+
+  .plan-box__price {
+    margin-bottom: 10px;
+    font-size: 350%;
+    font-weight: 100;
+    color: #e67e22;
+    text-align: center;
+  }
+
+  .plan-box__meal {
+    font-size: 100%;
+  }
+
+  .plan-box__item {
+    font-size: 100%;
+  }
+
+  .connection .col {
+    width: 100%;
+  }
+
+  .connection__form-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .footer-main .col {
+    width: 100%;
+  }
+
+  .footer-main {
+    padding: 25px 0;
+  }
+
+  .footer-main__nav,
+  .social-nav {
+    float: unset;
+  }
+
+  .footer-main__nav {
+    width: 425px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  .social-nav {
+    width: 135px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    min-width: auto;
+    font-size: 14px;
+  }
+
+  .header-page__text-box h1 {
+    font-size: 180%;
+    letter-spacing: .2px;
+    word-spacing: .5px;
+  }
+  
+  h2,
+  h3 {
+    letter-spacing: .2px;
+    word-spacing: .5px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    font-size: 140%;
+  }
+
+  h2::after {
+    margin-top: 15px;
+  }
+
+  .features .col,
+  .cities .col {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 15px; 
+  }
+
+  .btn-app:link,
+  .btn-app:visited {
+    margin-bottom: 10px;
+  }
+
+  .features__card {
+    min-height: 200px;
+  }
+
+  .how-works .span-1-of-2 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .plans .col {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .connection__form-wrapper {
+    width: 100%;
+  }
+
+  .footer-main__nav {
+    width: 305px;
+  }
+
+  .social-nav {
+    width: 70px;
+  }
+
+  .footer-main__item:not(:last-child),
+  .social-nav__item:not(:last-child) {
+    margin-right: 5px;
+  }
+}
