@@ -1,0 +1,26 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "description": "educational project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prefix": "gulp prefix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonsos/omnifood.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonsos/omnifood/issues"
+  },
+  "homepage": "https://github.com/antonsos/omnifood#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-path": "^4.0.0"
+  }
+}

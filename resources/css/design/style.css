@@ -10,8 +10,6 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -88,10 +86,6 @@ h2::after {
   width: 100px;
   margin: auto;
   margin-top: 30px;
-  -webkit-transform: translateX(-6px);
-  -moz-transform: translateX(-6px);
-  -ms-transform: translateX(-6px);
-  -o-transform: translateX(-6px);
   transform: translateX(-6px);
   content: "";
   background-color: #e67e22;
@@ -106,22 +100,8 @@ h2::after {
   position: relative;
   height: 100vh;
   background-image: 
-                    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(0, 0, 0, .7))),
-                    url(img/home-page/hero-bg.jpg);
-  background-image: 
-                    -webkit-linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-                    url(img/home-page/hero-bg.jpg);
-  background-image: 
-                    -moz-linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-                    url(img/home-page/hero-bg.jpg);
-  background-image: 
-                    -o-linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-                    url(img/home-page/hero-bg.jpg);
-  background-image: 
                     linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
                     url(img/home-page/hero-bg.jpg);
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -133,10 +113,6 @@ h2::after {
   top: 50%;
   left: 50%;
   width: 1140px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -159,14 +135,10 @@ h2::after {
   display: inline-block;
   padding: 5px 30px 7px;
   border: 2px solid #e67e22;
-  -webkit-border-radius: 200px;
   border-radius: 200px;
   line-height: 1.5;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: background-color .2s, border .2s, color .2s;
-  -o-transition: background-color .2s, border .2s, color .2s;
-  -moz-transition: background-color .2s, border .2s, color .2s;
   transition: background-color .2s, border .2s, color .2s;
 }
 
@@ -322,23 +294,12 @@ h2::after {
 
 .meals__photo img {
   width: 100%;
-  -webkit-transform: scale(1.18);
-  -moz-transform: scale(1.18);
-  -ms-transform: scale(1.18);
-  -o-transform: scale(1.18);
   transform: scale(1.18);
   opacity: .6;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  -moz-transition: .3s;
   transition: .3s;
 }
 
 .meals__photo img:hover {
-  -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  -o-transform: scale(1.03);
   transform: scale(1.03);
   opacity: 1;
 }
@@ -403,14 +364,11 @@ h2::after {
   padding-top: 5px;
   margin-right: 25px;
   border: 2px double #e67e22;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   font-size: 150%;
   font-weight: 400;
   color: #e67e22;
   text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -432,12 +390,8 @@ h2::after {
   width: 143px;
   height: 42px;
   margin-right: 20px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   vertical-align: bottom;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  -moz-transition: .3s;
   transition: .3s;
 }
 
@@ -449,8 +403,6 @@ h2::after {
 .play {
   background-image: url(img/how-works/google_play_button.svg);
   background-position: -3px 0;
-  -webkit-background-size: 105% 105%;
-  -o-background-size: 105%;
   background-size: 105%;
   background-repeat: no-repeat;
 }
@@ -459,30 +411,18 @@ h2::after {
   width: 122px;
   background-image: url(img/how-works/app_store_button.svg);
   background-position: -1px -1px;
-  -webkit-background-size: 102% 102%;
-  -o-background-size: 102%;
   background-size: 102%;
   background-repeat: no-repeat;
 }
 
 .btn-app:hover,
 .btn-app:focus {
-  -webkit-transform: scale(1.15) translateY(-6px);
-  -moz-transform: scale(1.15) translateY(-6px);
-  -ms-transform: scale(1.15) translateY(-6px);
-  -o-transform: scale(1.15) translateY(-6px);
   transform: scale(1.15) translateY(-6px);
-  -webkit-box-shadow: 0 5px 15px rgba(230, 125, 34, .9);
   box-shadow: 0 5px 15px rgba(230, 125, 34, .9);
 }
 
 .btn-app:active {
-  -webkit-transform: scale(1.1) translateY(-4px);
-  -moz-transform: scale(1.1) translateY(-4px);
-  -ms-transform: scale(1.1) translateY(-4px);
-  -o-transform: scale(1.1) translateY(-4px);
   transform: scale(1.1) translateY(-4px);
-  -webkit-box-shadow: 0 3px 10px rgba(230, 125, 34, .9);
   box-shadow: 0 3px 10px rgba(230, 125, 34, .9);
 }
 
@@ -525,9 +465,6 @@ h2::after {
   color: #e67e22;
   border-bottom: 2px solid #e67e22;
   text-decoration: none;
-  -webkit-transition: .2s;
-  -o-transition: .2s;
-  -moz-transition: .2s;
   transition: .2s;
 }
 
@@ -547,22 +484,8 @@ h2::after {
 
 .testimonials {
   background-image: 
-                    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .8)), to(rgba(0, 0, 0, .8))),
-                    url(img/testimonials/back-customers.jpg);
-  background-image: 
-                    -webkit-linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
-                    url(img/testimonials/back-customers.jpg);
-  background-image: 
-                    -moz-linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
-                    url(img/testimonials/back-customers.jpg);
-  background-image: 
-                    -o-linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
-                    url(img/testimonials/back-customers.jpg);
-  background-image: 
                     linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
                     url(img/testimonials/back-customers.jpg);
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -597,7 +520,6 @@ h2::after {
 .testimonials__auhtor img {
   display: inline-block;
   height: 45px;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
@@ -619,9 +541,7 @@ h2::after {
   width: 90%;
   margin-left: 5%;
   background-color: #fff;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 20px rgba(230, 125, 34, 0.5);
   box-shadow: 0 0 20px rgba(230, 125, 34, 0.5);
 }
 
@@ -637,9 +557,7 @@ h2::after {
 
 .plan-box__wrapper:first-child {
   background-color: #fcfcfc;
-  -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px; 
-  -webkit-border-top-right-radius: 5px; 
   border-top-right-radius: 5px; 
 }
 
@@ -685,7 +603,6 @@ h2::after {
   width: 100%;
   padding: 7px;
   border: 1px solid #ccc;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   font: inherit;
   color: #555;
@@ -744,9 +661,6 @@ h2::after {
   text-decoration: none;
   color: #e67e22;
   font-size: 120%;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  -moz-transition: .3s;
   transition: .3s;
 }
 
@@ -769,9 +683,6 @@ h2::after {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  -moz-transition: .3s;
   transition: .3s;
 }
 
